@@ -1,0 +1,2 @@
+Separate camelcase with spaces: add a space before any 2 character camelcase string
+value.replace(/(\p{IsAlphabetic})(?=[A-Z][a-z])/,'$0 ')
